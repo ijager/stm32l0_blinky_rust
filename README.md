@@ -1,7 +1,7 @@
 STM32L0 blinky
 ===========
 
-This is the cargo project with the source code for the blogpost: https://jonathanklimt.de/electrics/programming/rust-STM32F103-blink/
+Blinky project for b-l072z-lrwan1 board with the stm32l072 cortex-m0+ microcontroller.
 
 
 ## Flash using openocd
@@ -41,3 +41,8 @@ bobbin load stm32_blink
 ```
 
 Note that bobbin uses openocd internally.
+
+
+## Acknowledgments
+
+This project is based on the [stm32_blink](https://gitlab.com/jounathaen/stm32_blink) by Joathan Klinmt
